@@ -118,6 +118,7 @@ nav {
 }
 
 .card p {
+  font-size: large;
   color: #ccc;
   margin-bottom: 0.5rem;
 }
@@ -131,7 +132,7 @@ nav {
 
 .skill-tag {
   background: #c3a0ed;
-  color: white;
+  color: rgb(44, 44, 44);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
