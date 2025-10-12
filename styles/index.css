@@ -98,6 +98,20 @@ nav {
   margin: 2rem 0;
 }
 
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.phone-illustration {
+  flex-shrink: 0;
+}
+
+.card-text {
+  flex: 1;
+}
+
 .card h2 {
   color: #f7a6eb;
   margin-bottom: 1rem;
@@ -141,4 +155,14 @@ footer {
 
 .fade-in {
   opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .card-content {
+    flex-direction: column;
+  }
+  .phone-illustration svg {
+    width: 150px;
+    height: 300px;
+  }
 }
