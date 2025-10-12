@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Native - Pranata</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="profile.html" class="logo">
+          <div class="logo-icon">
+            <img src="assets/profile.png" alt="" />
+          </div>
+          <span class="logo-text">Pranata Putrandana</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/artikel.html">Artikel</a></li>
+          <li><a href="pages/profile.html">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero fade-in">
+      <h1>🚀 React Native ?</h1>
+      <p>
+        Pelajari pengertian dan dasar-dasar React Native untuk mobile
+        development
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="card fade-in">
+        <h2>Apa yang akan kamu pelajari?</h2>
+        <p>
+          Di sini kamu akan memahami konsep dasar React Native, framework
+          populer untuk membuat aplikasi mobile cross-platform dengan
+          JavaScript.
+        </p>
+        <a href="pages/artikel.html" class="btn">Baca Artikel →</a>
+      </div>
+
+      <div class="card fade-in">
+        <h2>Kenapa React Native?</h2>
+        <p>
+          React Native memungkinkan kamu membuat aplikasi mobile untuk iOS dan
+          Android dengan satu codebase. Hemat waktu, hemat biaya, dan tetap
+          mendapatkan performa native!
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Pranata Putrandana.</p>
+    </footer>
+
+    <script>
+      $(document).ready(function () {
+        $(".fade-in").each(function (i) {
+          $(this)
+            .delay(200 * i)
+            .animate({ opacity: 1 }, 600);
+        });
+      });
+    </script>
+  </body>
+</html>
