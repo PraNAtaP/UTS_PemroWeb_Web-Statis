@@ -37,14 +37,10 @@ nav {
 
 .logo-icon img{
   width: 50px;
-  background: #c3a0ed;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
-  color: white;
-  font-size: 1.2rem;
 }
 
 .logo-text {
