@@ -7,10 +7,10 @@ $(document).ready(function () {
 
   $(".profile-avatar").hover(
     function () {
-      $(this).animate({ transform: "scale(1.1)" }, 300);
+      $(this).css("transform", "scale(1.1)");
     },
     function () {
-      $(this).animate({ transform: "scale(1)" }, 300);
+      $(this).css("transform", "scale(1)");
     }
   );
 });
