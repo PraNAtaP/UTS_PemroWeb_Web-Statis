@@ -108,6 +108,11 @@ nav {
   color: #ccc;
 }
 
+.article .content {
+  color: #ccc;
+  line-height: 1.8;
+}
+
 .code-box {
   background: #0f0f0f;
   padding: 1rem;
@@ -141,4 +146,149 @@ footer {
 
 .fade-in {
   opacity: 0;
+}
+
+/* Bootstrap dark theme overrides */
+:root {
+  --bs-body-bg: #1a1a1a;
+  --bs-body-color: #eee;
+}
+
+body {
+  background: #1a1a1a !important;
+  color: #eee !important;
+}
+
+.container {
+  background: transparent !important;
+}
+
+/* Bootstrap alerts dark theme */
+.alert {
+  background-color: #2a2a2a !important;
+  border: 1px solid #444 !important;
+  color: #eee !important;
+}
+
+.alert-success {
+  background-color: #1e4620 !important;
+  border-color: #4caf50 !important;
+  color: #4caf50 !important;
+}
+
+.alert-danger {
+  background-color: #3d1a1a !important;
+  border-color: #f44336 !important;
+  color: #f44336 !important;
+}
+
+.alert-info {
+  background-color: #1a2332 !important;
+  border-color: #2196f3 !important;
+  color: #2196f3 !important;
+}
+
+.alert-warning {
+  background-color: #3d2f1a !important;
+  border-color: #ff9800 !important;
+  color: #ff9800 !important;
+}
+
+.alert-link {
+  color: #c3a0ed !important;
+  text-decoration: underline;
+}
+
+/* Bootstrap buttons dark theme */
+.btn-primary {
+  background-color: #7c3aed !important;
+  border-color: #7c3aed !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #6d28d9 !important;
+  border-color: #6d28d9 !important;
+}
+
+.btn-secondary {
+  background-color: #4a5568 !important;
+  border-color: #4a5568 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover {
+  background-color: #2d3748 !important;
+  border-color: #2d3748 !important;
+}
+
+.btn-warning {
+  background-color: #f59e0b !important;
+  border-color: #f59e0b !important;
+  color: #000 !important;
+}
+
+.btn-warning:hover {
+  background-color: #d97706 !important;
+  border-color: #d97706 !important;
+}
+
+.btn-danger {
+  background-color: #ef4444 !important;
+  border-color: #ef4444 !important;
+  color: #fff !important;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626 !important;
+  border-color: #dc2626 !important;
+}
+
+/* Bootstrap form controls dark theme */
+.form-control, .form-label {
+  background-color: #1a1a1a !important;
+  border-color: #444 !important;
+  color: #eee !important;
+}
+
+.form-control:focus {
+  background-color: #1a1a1a !important;
+  border-color: #c3a0ed !important;
+  color: #eee !important;
+  box-shadow: 0 0 0 0.25rem rgba(195, 160, 237, 0.25) !important;
+}
+
+/* Bootstrap cards dark theme */
+.card {
+  background-color: #2a2a2a !important;
+  border-color: #444 !important;
+}
+
+.card-body {
+  background-color: #2a2a2a !important;
+}
+
+.card-title, .card-text {
+  color: #eee !important;
+}
+
+/* Text muted */
+.text-muted {
+  color: #888 !important;
+}
+
+/* Close button */
+.btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Cards hover effect */
+.card-hover {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }

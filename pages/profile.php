@@ -30,7 +30,7 @@ $skills = pg_fetch_all($result_skills);
             </a>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="artikel.html">Artikel</a></li>
+                <li><a href="artikel.php">Artikel</a></li>
                 <li><a href="profile.php">Profile</a></li>
             </ul>
         </div>
